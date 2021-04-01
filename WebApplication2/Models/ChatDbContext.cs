@@ -25,7 +25,8 @@ namespace WebApplication2.Models
             if (!optionsBuilder.IsConfigured)
             {
 
-                optionsBuilder.UseSqlServer("Data Source=DESKTOP-5BSAPSF;Initial Catalog=ChatDb;Integrated Security=True");
+                optionsBuilder.UseSqlServer("Data Source=dschat.database.windows.net;Initial Catalog=ChatDb;User ID=jahanzaib;Password=lzd-3493;Connect Timeout=60;Encrypt=True;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
+                //optionsBuilder.UseSqlServer("Data Source=DESKTOP-5BSAPSF;Initial Catalog=ChatDb;Integrated Security=True");
             }
         }
 

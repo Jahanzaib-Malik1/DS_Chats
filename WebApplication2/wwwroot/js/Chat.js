@@ -8,7 +8,7 @@ $(document).ready(() => {
     var Chat = $('#Chat')
     connection.start().then(function () {
     
-        //connection.invoke("SendMessage", "wahaj").catch(function (err) {
+        //connection.invoke("SendMessage", "test").catch(function (err) {
         //    return console.error(err.toString());
         //});
  
